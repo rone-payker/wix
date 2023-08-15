@@ -1,0 +1,761 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: monospace;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    padding: 10px 0px;
+    background: #d1bbbb;
+}
+.header .navbar-brand{
+    color: #000;
+    font-size: 30px;
+    margin-left: 70px;
+
+}
+.header .navbar-brand span{
+    color: #130884;
+    font-size: 30px;
+}
+.header .navbar .navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #000;
+    text-transform: capitalize;
+    margin-right: 20px;
+    margin-top: 5px;
+   
+}
+.header .navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #420ab3;
+}
+.header .navbar .navbar-nav .nav-item .nav-link:focus{
+    color: #420ab3;
+}
+/* header end */
+
+/* banner start*/
+.banner{
+    width: 100%;
+    background: url("../image/banner\ bg\ 3.jpg") center top;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.banner .inner-banner {
+    padding: 90px 0px 0px;
+    text-align: center;
+  }
+.banner .inner-banner .inner-banner-title{
+    color: #fff;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    margin-top: 70px;
+}
+.banner .inner-banner .inner-banner-title-t{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.7em;
+    text-transform: capitalize;
+}
+.banner .button{
+    padding: 0px 0px 240px;
+    text-align: center;
+
+}
+.banner .button .btn-primary{
+    background-color: #de4242;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 0px;
+    text-align: center;
+    border: 2px solid rgb(240, 237, 246);  
+    padding: 8px 30px; 
+}
+.banner .button .btn-primary:hover{
+    background-color: transparent;
+    color: rgb(243, 241, 247);
+    transition: 1s;
+    
+}
+.banner .button .btn-primary:focus{
+    background-color: transparent;
+    color: rgb(221, 220, 224);
+    transition: 1s;
+    
+}
+/* banner end */
+/* service start */
+.service{
+    width: 100%;
+    padding: 80px 0px;
+}
+.service .inner-service{
+   float: left;
+}
+.service .inner-service img{
+    margin-left: -100px;
+
+}
+.service .inner-service-text{
+    padding: 105px 0px 0px;
+
+}
+.service .inner-service-text .inner-service-text-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: lefft;
+    color: #000;
+    line-height: 1.2em;
+    margin-left: 30px;
+    padding: 0px 0px 10px;
+}
+.service .inner-service-text .inner-service-text-des{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 30px;
+}
+.service .button{
+    padding: 40px 0px 20px;
+    margin-left: 30px;
+}
+
+.service .button .btn-primary{
+    background-color: #de4242;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 0px;
+    text-align: center;
+    border: 2px solid rgb(240, 237, 246);  
+    padding: 8px 30px; 
+}
+.service .button .btn-primary:hover{
+    background-color: transparent;
+    color: #000;
+    border: 2px solid rgb(45, 20, 96);  
+}
+.service .button .btn-primary:focus{
+    background-color: transparent;
+    color: #000;
+    border: 2px solid rgb(45, 20, 96);  
+}
+/* service end */
+/* our-team  start*/
+.our-team{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #dfdede;
+}
+.our-team .inner-our-team-text{
+   float: left;
+   padding: 105px 0px 0px;
+
+}
+.our-team .inner-our-team-text-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: left;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 1.2em;
+   letter-spacing: 1px;
+    padding: 0px 0px 10px;
+    
+}
+.our-team .inner-service-text .inner-service-text-des{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;  
+}
+/* .our-team .inner-our-team img{
+
+} */
+
+.our-team .button{
+    padding: 40px 0px 20px;
+}
+
+.our-team .button .btn-primary{
+    background-color: #de4242;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 0px;
+    text-align: center;
+    border: 2px solid rgb(240, 237, 246);  
+    padding: 8px 30px; 
+}
+.our-team .button .btn-primary:hover{
+    background-color: transparent;
+    color: #000;
+    border: 2px solid rgb(45, 20, 96);  
+}
+.our-team .button .btn-primary:focus{
+    background-color: transparent;
+    color: #000;
+    border: 2px solid rgb(45, 20, 96);  
+}
+/* our team end */
+
+/* our client start */
+.our-client{
+    width: 100%;
+    padding: 80px 0px;
+}
+.our-client .our-client-t{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    color: #000;
+    line-height: 1.2em;
+    margin-left: 30px;
+    padding: 0px 0px 10px;
+}
+.our-client img{
+    width: 100%;
+    margin-left: -45px;
+}
+.our-client .button{
+   text-align: center;
+}
+.our-client .button .btn-primary{
+    background-color: #de4242;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 0px;
+    text-align: center;
+    border: 2px solid rgb(240, 237, 246);  
+    padding: 8px 30px; 
+}
+.our-client .button .btn-primary:hover{
+    background-color: transparent;
+    color: #000;
+    border: 2px solid rgb(45, 20, 96);  
+
+}
+.our-client .button .btn-primary:focus{
+    background-color: transparent;
+    color: #000;
+    border: 2px solid rgb(45, 20, 96);  
+}
+/* our client end */
+/* latest articale start */
+.latest-articale{
+    width: 100%;
+    padding: 80px 0px;
+    background: #f4efef;
+   
+}
+.latest-articale .latest-articale-t{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    color: #000;
+    line-height: 1.2em;
+    margin-left: 30px;
+    padding: 0px 0px 20px;
+}
+.latest-articale .card{
+    margin-left: 180px;
+}
+.latest-articale .card .card-body .card-title{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 0px;
+    text-align: left;
+   
+}
+.latest-articale .card .card-body .icon{
+    border-top: 2px solid #d6caca;
+    margin-top: 20px;
+   
+}
+.latest-articale .card .card-body .icon .fa-eye{
+    color: #000;
+    margin-right: 10px; 
+}
+.latest-articale .card .card-body .icon .fa-eye span{
+    color: #000;
+    margin-left: 5px;
+}
+.latest-articale .card .card-body .icon .fa-comment-o{
+    color: #000;
+    margin-right: 10px; 
+}
+.latest-articale .card .card-body .icon .fa-comment-o span{
+    color: #000;
+    margin-left: 5px;
+}
+.latest-articale .card .card-body .icon .fa-heart-o{
+    color: #000;
+    margin-left: 120px;
+    text-align: right;
+}
+.latest-articale .card .card-body .icon .fa-heart-o span{
+    color: #000;
+    margin-left: 5px;
+}
+.latest-articale .need-more{
+    width: 100%;
+    padding: 90px 0px;
+    text-align: right;
+}
+.latest-articale .need-more{
+    width: 100%;
+    padding: 120px 0px 0px;
+}
+.latest-articale .need-more .need-more-t{
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    color: #bc2f2f;
+    line-height: 0.5em;
+    margin-left: 88px;
+}
+.latest-articale .need-more .need-more-des{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+    line-height: 1.7em;
+    margin-left: 175px;
+   
+}
+.latest-articale .button{
+    padding: 110px 0px 0px;
+}
+.latest-articale .button .btn-primary{
+    background-color: #de4242;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 0px;
+    text-align: right;
+    border: 2px solid rgb(240, 237, 246);  
+    padding: 8px 30px; 
+    margin-left: 90px;
+}
+.latest-articale .button .btn-primary:hover{
+    background-color: transparent;
+    color: #000;
+    border: 2px solid rgb(45, 20, 96);  
+
+}
+.latest-articale .button .btn-primary:focus{
+    background-color: transparent;
+    color: #000;
+    border: 2px solid rgb(45, 20, 96); 
+} 
+/* latest articale end */
+/* footer start  */
+.footer{
+    width: 100%;
+    background: #d1bbbb;
+}
+.footer .inner-footer .inner-footer-text{ 
+    font-size: 15px;
+    color: #000;
+    padding: 20px 0px 0px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.footer .inner-footer .social{
+    padding: 20px 0px;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer .inner-footer .social ul{
+    list-style: none;
+}
+.footer .inner-footer .social ul li{
+    display: inline-block;
+  
+}
+.footer .inner-footer .social ul li a{
+    font-size: 30px;
+    margin: 0px 5px;
+    color: #000;
+}
+.footer .inner-footer .social ul li a:hover{
+    color: #fff;
+}
+.footer .inner-footer .social ul li a:focus{
+    color: #fff;
+}
+/* footer end  */
+/* about.html css code start here */
+/* about secction start here */
+.about{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../image/banner\ bg2.jpg") center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about .inner-banner{
+    padding: 80px 0px;
+}
+.about .inner-banner .inner-banner-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-left: 70px;
+}
+.about .inner-banner .inner-banner-des{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #000;
+    letter-spacing: 2px;
+    margin-left: 70px;
+}
+/* about secction end here */
+
+/* dettails start here */
+.details{
+    width: 100%;
+    padding: 80px 0px;
+    margin-left: 70px;
+
+}
+.details .details-title{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+    color: #000;
+    letter-spacing: 2px;
+    padding: 0px 0px 30px;
+
+}
+/* dettails  end here */
+/* our team start */
+.our-team-about{
+    width: 100%;
+    padding: 20px 0px;
+    background: #e1dcdc;
+}
+.our-team-about .our-team-about-title-t{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    letter-spacing: 2px;
+    padding: 0px 0px 20px;
+}
+.our-team-about a{
+    text-decoration: none;
+    text-align: center;
+}
+.our-team-about a img{
+    width: 91px;
+    border-radius: 50%;
+}
+.our-team-about a span{
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.our-team-about p{
+    font-size: 17px;
+    padding: 20px 0px 0px;
+    text-align: left;
+}
+.our-team-about .c-des{
+    padding: 30px 0px 0px;
+}
+/* our team end */
+/* about.html css code end here */
+
+
+
+/* service.html css code start here */
+.service-2{
+    width: 100%;
+    height: 50vh;
+    padding: 80px 0px;
+    background: url("../image/service\ bg.jpg") center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.service-2 .inner-service{
+    margin: 80px 0px;
+    text-align: center;
+    float: revert;
+}
+ 
+.service-2 .inner-service .inner-service-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    color: #fff;
+    letter-spacing: 2px;
+   
+}
+/* details start  */
+.details .card{
+    margin-bottom: 20px;
+}
+.details .card .card-body{
+    text-align: center;
+}
+.details .card .card-body .btn-primary{
+    background-color: #4635c3;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 0px;
+    text-align: right;
+    border: 2px solid rgb(240, 237, 246);  
+    padding: 8px 30px; 
+    
+}
+.details .card .card-body .btn-primary:hover{
+    background-color: transparent;
+    color: #2e4ed1;
+    border: 2px solid rgb(113, 60, 218);  
+
+}
+.details .card .card-body .btn-primary:focus{
+    background-color: transparent;
+    color: #2e4ed1;
+    border: 2px solid rgb(113, 60, 218);  
+
+}
+/* details end  */
+/* service.html css code end here */
+/* pricing-plan.html section start here */
+ /* pricing-plan start */
+ .pricing-plan{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../image/banner\ bg\ 3.jpg") center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+.pricing-plan .inner-pricing-plan{
+    margin: 80px 0px;
+}
+.pricing-plan .inner-pricing-plan .inner-pricing-plan-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-left: 70px;
+}
+ /* pricing-plan end */
+ /* choose your plan start */
+ .choose-pricing-plan{
+    padding: 10px 0px;
+ }
+.choose-pricing-plan .pricing-plan-title-t{
+    text-align: center;
+    padding: 30px 0px;
+}
+.choose-pricing-plan .card .card-body .card-title{
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
+.choose-pricing-plan .card .card-body .card-title-1{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
+.choose-pricing-plan .card .card-body .card-title-t{
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    padding: 10px 0px;
+}
+.choose-pricing-plan .card .card-body .card-title-t-2{
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    padding: 20px 0px;
+}
+.choose-pricing-plan .card .card-body .btn-primary{
+    background-color: #4635c3;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 0px;
+    text-align: center;
+    border: 2px solid rgb(240, 237, 246);  
+    padding: 8px 30px; 
+}
+.choose-pricing-plan .card .card-body .btn-primary:hover{
+    background-color: transparent;
+    color: #711bc7;
+    border: 2px solid rgb(79, 38, 160);  
+}
+.choose-pricing-plan .card .card-body .btn-primary:focus{
+    background-color: transparent;
+    color: #711bc7;
+    border: 2px solid rgb(79, 38, 160);  
+}
+ /* choose your plan end */
+
+
+/* pricing-plan.html section end here */
+
+/* contact-us.html start */
+/* sevice-3 start here */
+.service-3{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../image/banner\ bg\ 3.jpg") center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.service-3 .inner-service-3 .inner-service-title-3{
+    font-size: 42px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+    color: #fff;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+/* sevice-3 end here */
+
+.contact{
+    width: 100%;
+    padding: 70px 0px 140px 0px;
+    background: #908b8b;
+    border-bottom: 2px solid #fff;
+}
+.contact .contact-form{
+    text-align: center;
+    position: relative;
+}
+.contact .form-box-inner{
+    width: 100%;
+}
+.contact .form-box{
+    width: 70%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 0.2px solid #b6b6b8;
+    background: #fff;
+    color: #000;
+}
+.contact .contact-form .form-box-inner input {
+    overflow: visible;
+    font-size: 14px;
+    font-weight: 500;
+   
+}
+.contact .contact-form .form-box-inner-massege input{
+    overflow: visible;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.contact .form-box-inner-massege{
+    width: 100%;
+}
+.contact .form-box-massage{
+    width: 70%;
+    padding: 10px 10px 100px 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 0.2px solid #b6b6b8;
+    background: #fff;
+}
+.contact .form-box:focus{
+    outline: none;
+}
+.contact .form-box-massage:focus{
+    outline: none;
+}
+.contact .contact-form .button{
+    text-align: center;
+}
+.contact .button .btn-primary{
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 12px 18px;
+    border-radius: 50px;
+    border: 2px solid #4409d0;
+    background: #4409d0;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 30px;
+    transition: 1s;
+    letter-spacing: 1px;
+    position: absolute;
+    right: 43.2%;
+    box-shadow: 2px 5px 15px rgba(45, 52, 54, 0.3);
+
+}
+.contact .btn-primary:hover{
+    border: 2px solid #4409d0;
+    background: #fff;
+    color: #4409d0;
+    transition: 1s ease;
+}
+.contact .btn-primary:focus{
+    border: 2px solid #4409d0;
+    background: #fff;
+    color: #4409d0;
+    transition: 1s ease;
+}
+/* contact-us html end here */
